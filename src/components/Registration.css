@@ -1,0 +1,21 @@
+.REG
+{
+font-family: Arial, sans-serif;
+border-radius: 5px;
+box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image: url("https://images.pexels.com/photos/381739/pexels-photo-381739.jpeg?cs=srgb&dl=pexels-sevenstormphotography-381739.jpg&fm=jpg");
+background-repeat:no-repeat;
+background-size: cover;
+align-items: center;
+
+}
+.sy{
+  padding: 60px;
+border-radius: 20px;
+box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+backdrop-filter: blur(70px); 
+}

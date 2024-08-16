@@ -1,0 +1,185 @@
+
+.aa{
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(70px); 
+  }
+  .icon{
+    text-align: center;
+    padding-bottom: 20px;
+  
+  }
+  .login {
+    font-family: Arial, sans-serif;
+    /* padding: 60px; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url("https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg?cs=srgb&dl=pexels-pixabay-158028.jpg&fm=jpg");
+    background-repeat:no-repeat;
+    background-size: cover; */
+    align-items: center;
+  }
+   .login
+  {
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231004/pngtree-stunning-3d-illustration-of-a-lush-tropical-house-s-rooftop-garden-image_13544224.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .ab{
+    align-items: center;
+    background-color: black;
+  }
+/* .carousel .image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.carousel .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.carousel .image-container .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(187, 179, 68);
+  background-color: rgba(0, 0, 0,0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  z-index: 10;
+  text-align: center;
+}
+
+.carousel .image-container .garden {
+  position: absolute;
+  top: 50%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  color: rgb(28, 69, 28);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  z-index: 10;
+  text-align: left;
+}
+
+.carousel .image-container .garden .line {
+  white-space: nowrap; 
+}
+
+.carousel .image-container .garden .bold-text {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .carousel .image-container {
+    height: 40vh;
+  }
+
+  .carousel .image-container .text-overlay, 
+  .carousel .image-container .garden {
+    font-size: 1.5rem; 
+  }
+} */
+
+.carousel .image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.carousel .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel .image-container .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(187, 179, 68);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  z-index: 10;
+  text-align: center;
+}
+
+.carousel .image-container .garden {
+  position: absolute;
+  top: 50%;
+  left: 77.2%;
+  transform: translate(-50%, -50%);
+  color: rgb(28, 69, 28);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 3vw;
+  font-family: 'Times New Roman', Times, serif;
+  z-index: 10;
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+}
+
+.carousel .image-container .garden .line {
+  white-space: nowrap; 
+}
+
+.carousel .image-container .garden .bold-text {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .carousel .image-container {
+    height: 50vh;
+  }
+  
+  .carousel .image-container .text-overlay {
+    font-size: 6vw;
+  }
+  
+  .carousel .image-container .garden {
+    font-size: 4vw;
+    width: 90%;
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel .image-container {
+    height: 40vh;
+  }
+  
+  .carousel .image-container .text-overlay {
+    font-size: 8vw;
+  }
+  
+  .carousel .image-container .garden {
+    font-size: 5vw;
+  }
+}
